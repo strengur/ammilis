@@ -5,6 +5,14 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!--[if gte IE 8]>
+			<link rel="stylesheet" type="text/css" href="css/ie8.css">
+		<![endif]-->
+
+		<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="css/ie7.css">
+		<![endif]-->
 	</head>
 	
 	<body>

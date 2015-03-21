@@ -4,10 +4,10 @@ body {
 }
 /* =========== BUTTONS ========= */
 .button-blue-gradient {
-	background: -webkit-linear-gradient(top, #007FF2, #034EA1); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(top, #007FF2, #034EA1); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(top, #007FF2, #034EA1); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(top, #007FF2, #034EA1); /* Standard syntax */
+	background: -webkit-linear-gradient(top, #007FF2, #034EA1);
+	background: -o-linear-gradient(top, #007FF2, #034EA1);
+	background: -moz-linear-gradient(top, #007FF2, #034EA1);
+	background: linear-gradient(top, #007FF2, #034EA1);
 	color: #FFFFFF;
 }
 
@@ -21,6 +21,13 @@ button.navigation-online-store {
 	
 }
 
+.banner-button {
+  position: absolute;
+  top: 82%;
+  right: 52px;
+  z-index: 1000;
+}
+
 header {
 	position: fixed;
 	height: 150px;
@@ -32,7 +39,7 @@ header {
 .logo {
 	position: absolute;
 	top: 45px;
-	left: 47px;
+	left: 30px;
 }
 
 .navigation {
@@ -59,13 +66,44 @@ header {
 .banners {
 	position: relative;
 	border-bottom: 2px solid #0f0; /* Remove when banner is ready */
-	position: relative;
 	padding-top: 150px;
 	min-height: 100%;
 }
 
-.banners img {
+.banners-img {
 	width: 100%;
+}
+
+.banner-headline {
+	position: absolute;
+	width: 100%;
+	top: 26.6vw;
+	z-index: 1000;
+}
+
+.banner-headline img {
+	max-width: 100%;
+}
+
+#banner-headline-image-left {
+	display: none;
+	position: relative;
+	top: 8px;
+	right: -35px;
+}
+
+#banner-headline-image-right {
+	display: none;
+	position: relative;
+	left: -35px;
+	bottom: 8px;
+}
+
+#banner-headline-text {
+	display: none;
+	position: relative;
+	color: #fff;
+	top: -22px;
 }
 
 footer {
