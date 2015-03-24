@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 		<title>Líkami &amp; Lífsstíll ehf.</title>
+		
 		<meta charset="utf-8">
+		
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		
-		<!--[if gte IE 8]>
-			<link rel="stylesheet" type="text/css" href="css/ie8.css">
-		<![endif]-->
-
-		<!--[if lte IE 7]>
-			<link rel="stylesheet" type="text/css" href="css/ie7.css">
-		<![endif]-->
 	</head>
 	
 	<body>
@@ -28,7 +23,7 @@
 					<li>GREINAR</li>
 					<li>UM OKKUR</li>
 					<li>HAFA SAMBAND</li>
-					<li><button class="navigation-online-store button-blue-gradient">NETVERSLUN</button></li>
+					<li><button class="navigation-online-store button-blue-gradient"><a href="http://n.likamioglifsstill.is/">NETVERSLUN</a></button></li>
 				</ul>
 			</div>
 		</header>
