@@ -96,17 +96,22 @@ button.navigation-mobile-menu {
 
 .banner-button {
   position: absolute;
-  top: 78%;
+  top: 20em;
   right: 30px;
   font-size: 1.6em;
   z-index: 1000;
+}
+
+button,
+header {
+	font-family: Helvetica, sans-serif;
 }
 
 header {
 	position: fixed;
 	height: 150px;
 	width: 100%;
-	background: #fff;
+	background: rgba(0,0,0,0.0);
 	z-index: 1000;
 }
 
@@ -170,24 +175,24 @@ header {
 .banners {
 	position: relative;
 	border-bottom: 2px solid #0f0; /* Remove when banner is ready */
-	padding-top: 150px;
+	padding-top: 0px;
 	min-height: 100%;
 	z-index: 100;
-	}
+}
 	
 .banners-img {
-		width: 100%;
+	width: 100%;
 }
 
 .banner-headline {
 	position: absolute;
 	width: 100%;
-	top: 26.6vw;
+	top: 30em;
 }
 
 .banner-headline h1 {
 	font-size: 1.4em;
-	font-family: cursive, sans-serif;
+	font-family: helvetica, sans-serif;
 }
 
 .banner-headline img {
@@ -213,6 +218,35 @@ header {
 	position: relative;
 	color: #fff;
 	top: -22px;
+}
+
+.social-media-icons {
+		position: fixed;
+		top: 200px;
+		right: 0px;
+		width: 76px;
+		height: 286px;
+		background: rgba(0,0,0,0.3);
+		border-radius: 5px 0 0 5px;
+		padding-top: 3px;
+		z-index: 1000;
+	}
+	
+	.social-media-icons img {
+		margin-left: 8px;
+		margin-top: 5px;
+	}
+
+.arrow-down-clearfix {
+	position: absolute;
+/* 	top: 590px; */
+	width: 100%;
+	z-index: 100;
+}
+
+.arrow-down {
+	margin: auto;
+	width: 60px;
 }
 
 footer {
@@ -254,8 +288,39 @@ footer {
 	}
 
 	.banner-button {
-		top: 82%;
-		font-size: 1em;
+		top: 54%;
+		font-size: 1.5em;
 	}
+	
+	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
