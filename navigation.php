@@ -9,14 +9,14 @@
 			<li>GREINAR</li>
 			<li>UM OKKUR</li>
 			<li>HAFA SAMBAND</li>
-			<li><button class="navigation-online-store button-blue-gradient"><a href="http://n.likamioglifsstill.is/">NETVERSLUN</a></button></li>
+			<li><a href="http://n.likamioglifsstill.is/" class="navigation-online-store button-blue-gradient button">NETVERSLUN</a></li>
 		</ul>
 	</div>
 	
 	<div class="navigation-mobile">
 		<ul>
-			<li><button class="navigation-online-store button-blue-gradient"><a href="http://n.likamioglifsstill.is/">NETVERSLUN</a></button></li>
-			<li><button class="navigation-mobile-menu button-grey-gradient"><span>+</span></li>
+			<li><a class="navigation-online-store button-blue-gradient button">NETVERSLUN</a></li>
+			<li><a class="navigation-mobile-menu button-grey-gradient button"><span>+</span></a></li>
 		</ul>
 	</div>
 	

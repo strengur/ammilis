@@ -33,7 +33,7 @@ window.onscroll = scrollEffects;
 function scrollEffects () {
 	// Turn header to solid color from transparent
 	if (window.pageYOffset > 73) {
-		$("header").css("background-color", "#fff").css("transition-duration", "1s");
+		$("header").css("background-color", "#fff").css("transition-duration", "0.5s");
 		
 		} else {
 		

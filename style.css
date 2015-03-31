@@ -40,7 +40,7 @@ h2,
 h3,
 h4 {
 	font-family: helvetica, sans-serif;
-	color: #ffc;
+	color: #3f3f3f;
 }
 
 
@@ -71,25 +71,21 @@ h4 {
 	color: #FFFFFF;
 }
 
-button {
+.button {
 	border: 0px;
 	border-radius: 5px;
 }
 
-button.navigation-online-store {
+.navigation-online-store {
 	padding: 15px 12px 11px 12px;
-}
-
-button.navigation-online-store a {
 	text-decoration: none;
+}
+
+.navigation-online-store a:visited {
 	color: #fff;
 }
 
-button.navigation-online-store a:visited {
-	color: #fff;
-}
-
-button.navigation-mobile-menu {
+.navigation-mobile-menu {
 	padding: 15px 20px 11px 20px;
 }
 
@@ -97,19 +93,19 @@ button.navigation-mobile-menu {
 .banner-button {
   position: absolute;
   top: 20em;
-  right: 30px;
+  right: 35px;
   font-size: 1.6em;
   z-index: 1000;
 }
 
-button,
+.banner-button,
 header {
 	font-family: Helvetica, sans-serif;
 }
 
 header {
 	position: fixed;
-	height: 150px;
+	height: 110px;
 	width: 100%;
 	background: rgba(0,0,0,0.0);
 	z-index: 1000;
@@ -117,7 +113,7 @@ header {
 
 .logo {
 	position: absolute;
-	top: 45px;
+	top: 27px;
 	left: 15px;
 }
 
@@ -127,8 +123,13 @@ header {
 
 .navigation-mobile {
 	position: absolute;
-	top: 10px;
+	top: 27px;
 	right: 15px;
+}
+
+.navigation ul,
+.navigation-mobile ul {
+	margin: 0;
 }
 
 .navigation li,
@@ -142,7 +143,7 @@ header {
 	display: none;
 	position: inherit;
 	width: 100%;
-	top: 150px;
+	top: 110px;
 	background: #888;
 	border-radius: 0 0 5px 5px;
 	color: #fff;
@@ -157,7 +158,7 @@ header {
 }
 
 .navigation-mobile-menu-closed li {
-	padding: 15px 0 5px 0;
+	padding: 24px 0 13px 0;
 	border-bottom: 1px dotted #555;
 	font-size: 1.6em;
 }
@@ -167,14 +168,13 @@ header {
 }
 
 .navigation-mobile-menu-closed li:last-child {
-	padding-bottom: 5px;
+	padding-bottom: 13px;
 	border: none;
 	border-radius: 0 0 5px 5px;
 }
 
 .banners {
 	position: relative;
-	border-bottom: 2px solid #0f0; /* Remove when banner is ready */
 	padding-top: 0px;
 	min-height: 100%;
 	z-index: 100;
@@ -195,7 +195,8 @@ header {
 	font-family: helvetica, sans-serif;
 }
 
-.banner-headline img {
+.banner-headline img,
+.article-columns img {
 	max-width: 100%;
 }
 
@@ -221,25 +222,89 @@ header {
 }
 
 .social-media-icons {
-		position: fixed;
-		top: 200px;
-		right: 0px;
-		width: 76px;
-		height: 286px;
-		background: rgba(0,0,0,0.3);
-		border-radius: 5px 0 0 5px;
-		padding-top: 3px;
-		z-index: 1000;
-	}
-	
-	.social-media-icons img {
-		margin-left: 8px;
-		margin-top: 5px;
-	}
+	position: fixed;
+	top: 200px;
+	right: 0px;
+	width: 76px;
+	height: 286px;
+	background: rgba(0,0,0,0.3);
+	border-radius: 5px 0 0 5px;
+	padding-top: 3px;
+	z-index: 1000;
+}
+
+.social-media-icons img {
+	margin-left: 8px;
+	margin-top: 5px;
+}
+
+.article-columns {
+	position: relative;
+	top: -5px;
+	width: 100%;
+	z-index: -1;
+	border-bottom: 2px solid #0f0; /* Remove when banner is ready */
+}
+
+.article-columns-content {
+	position: absolute;
+	width: 98%;
+	top: 10px;
+	padding-top: 55px;
+	text-align: center;
+}
+
+.newest-articles {
+	width:	100%;
+	margin: auto;
+}
+
+.article-columns-content h1 {
+	line-height: 1.6em;
+	margin-bottom: 20px;
+	margin-top: 33px;
+	text-align: center;
+}
+
+.article-column-one h1,
+.article-column-two h1,
+.article-column-three h1 {
+	font-size: 2.827em;
+}
+
+.article-columns-border-top,
+.article-columns-border-bottom {
+	width: 400px;
+	margin: auto;
+}
+
+.article-columns-border-top {
+	border-top: 5px #3f3f3f solid;
+}
+
+.article-columns-border-bottom {
+	border-bottom: 5px #3f3f3f solid;
+	margin-bottom: 40px;
+}
+
+.article-column-one,
+.article-column-two {
+	height: 380px;
+	width: 570px;;
+	display: inline-table;
+	text-align: left;
+}
+
+.article-column-one {
+	margin-right: 15px;
+}
+
+.article-column-two {
+	margin-left: 15px;
+}
 
 .arrow-down-clearfix {
 	position: absolute;
-/* 	top: 590px; */
 	width: 100%;
 	z-index: 100;
 }
@@ -258,6 +323,13 @@ footer {
 	bottom: 1px;
 }
 
+.copyright-year {
+	position: relative;
+	margin: auto;
+	width: 480px;
+	text-align: center;
+}
+
 
 @media screen and (min-width: 1180px) {
 	
@@ -268,7 +340,7 @@ footer {
 	.navigation {
 		position: absolute;
 		display: inherit;
-		top: 34px;
+		top: 33px;
 		right: 30px;
 	}
 	
