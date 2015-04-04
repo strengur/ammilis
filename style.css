@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body {
 	width: 100%;
 	height: 100%;
@@ -195,8 +199,7 @@ header {
 	font-family: helvetica, sans-serif;
 }
 
-.banner-headline img,
-.article-columns img {
+.banner-headline img {
 	max-width: 100%;
 }
 
@@ -242,16 +245,28 @@ header {
 	position: relative;
 	top: -5px;
 	width: 100%;
+	height: 600px;
 	z-index: -1;
 	border-bottom: 2px solid #0f0; /* Remove when banner is ready */
 }
 
+.article-columns-img {
+	background-image: url("images/banners/female-running.jpg");
+/* 	background-position: 50% 50%; */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+/* 	background-size: cover; */
+	position: relative;
+/* 	padding-top: 200px; */
+}
+
 .article-columns-content {
-	position: absolute;
-	width: 98%;
-	top: 10px;
+	position: relative;
+	width: 90%;
+	top: 1px;
 	padding-top: 55px;
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .newest-articles {
@@ -266,10 +281,31 @@ header {
 	text-align: center;
 }
 
+.article-columns-logo-left,
+.article-columns-logo-right {
+	position: absolute;
+}
+
+.article-columns-logo-left {
+	bottom: 80px;
+	left: 10px;
+}
+
+.article-columns-logo-right {
+	top: 270px;
+	right: 60px;
+}
+
+.article-columns-center-fix {
+	width: inherit;
+	margin: auto;
+	padding-left: 10px;
+}
+
 .article-column-one h1,
 .article-column-two h1,
 .article-column-three h1 {
-	font-size: 2.827em;
+	font-size: 2em;
 }
 
 .article-columns-border-top,
@@ -290,17 +326,17 @@ header {
 .article-column-one,
 .article-column-two {
 	height: 380px;
-	width: 570px;;
+	width: 45%;
 	display: inline-table;
 	text-align: left;
 }
 
 .article-column-one {
-	margin-right: 15px;
+	margin-right: 20px;
 }
 
 .article-column-two {
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 .arrow-down-clearfix {
@@ -315,7 +351,7 @@ header {
 }
 
 footer {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 100px;
 	background: #222;
