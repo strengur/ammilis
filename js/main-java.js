@@ -7,19 +7,11 @@ $("#banner-headline-image-right").delay(4600).fadeIn(1000);
 
 // Mobile version of main menu, dropdown menu
 $(".navigation-mobile-menu").click(function() {
-	
-	$(".navigation-mobile-menu-closed").slideToggle("slow", function() {
-		
-		var openMobileMenu = "+";
-		var closeMobileMenu = "-";
-		
-		if ($(".navigation-mobile-menu").text() === openMobileMenu){
-			$(".navigation-mobile-menu").html(closeMobileMenu);
-		} else {
-			$(".navigation-mobile-menu").html(openMobileMenu);
-		}
 
-	});
+	$(".navigation-mobile-menu img").toggle();
+
+	
+	$(".navigation-mobile-menu-closed").slideToggle("slow");
 			
 });
 
