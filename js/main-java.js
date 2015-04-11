@@ -9,7 +9,7 @@ $("#banner-headline-image-right").delay(4600).fadeIn(1000);
 $(".navigation-mobile-menu").click(function() {
 
 	$(".navigation-mobile-menu img").toggle();
-
+	$("header").css("background-color", "#fff").css("transition-duration", "0.5s");
 	
 	$(".navigation-mobile-menu-closed").slideToggle("slow");
 			
