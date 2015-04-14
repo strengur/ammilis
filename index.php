@@ -5,19 +5,18 @@
 	<img class="banners-img" src="images/banners/frontur.jpg" alt="Baner image">
 	
 	<div class="banner-headline">
-		
-		<div>
+			
+<!-- 			<img id="banner-headline-image-left" src="images/icons/left-side-logo-blue.png" alt="Vinstri hlið af LL logoi"> -->
 			<h1>
-				<img id="banner-headline-image-left" src="images/icons/left-side-logo-blue.png" alt="Vinstri hlið af LL logoi">
-				<span id="banner-headline-text">Við hjálpum þér að ná þínum markmiðum!</span>
-				<img id="banner-headline-image-right" src="images/icons/right-side-logo-blue.png" alt="Hægri hlið af LL logoi">
+				<span id="banner-headline-text">Við hjálpum þér að ná þínum markmiðum!</span>	
 			</h1>
-		</div>
-
+<!-- 			<img id="banner-headline-image-right" src="images/icons/right-side-logo-blue.png" alt="Hægri hlið af LL logoi"> -->
 	</div>
 	
-	<div class="banner-button">
-		<a href="#" class="banner-button-button button-blue-gradient button">Nánar...</a>
+	<div class="banner-button-clearfix">
+		<div class="banner-button">
+			<a href="#" class="banner-button-button button-blue-gradient button">Nánar...</a>
+		</div>
 	</div>
 
 </div>

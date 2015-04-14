@@ -32,14 +32,15 @@ function scrollEffects () {
 		$("header").css("background-color", "rgba(0,0,0,0.0)");
 	}
 	
-	// Hide the the down arrow when user scroll the page or if the page is not at the top.
+	// Hide the down arrow when user scroll the page or if the page is not at the top.
 	var scroll = $(window).scrollTop();
 	if (window.pageYOffset > 5) {
 		$(".arrow-down-clearfix").fadeOut(1000);
 	} 
 	if (scroll > 80) {
 		$(".arrow-down-clearfix").css("display", "none");
-	 }
+	}
+	
 }
 
 
