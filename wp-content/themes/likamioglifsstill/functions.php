@@ -24,9 +24,9 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 	function theme_styles() {
 
 
-		wp_register_style('googleFonts-Lora','http://fonts.googleapis.com/css?family=Lora:400,700,400italic');
+		wp_enqueue_style('googleFonts-Lora','http://fonts.googleapis.com/css?family=Lora:400,700,400italic');
 
-		wp_register_style('googleFonts-Merriweathre','http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic');
+		wp_enqueue_style('googleFonts-Merriweathre','http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic');
 		wp_enqueue_style( 'googleFonts-Merriweathre');
 
 		wp_enqueue_style('normalize-theme-style', get_template_directory_uri(). '/css/normalize.css');
