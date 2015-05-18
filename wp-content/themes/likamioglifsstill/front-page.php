@@ -36,7 +36,7 @@
 
 <div class="banner-button-clearfix">
 		<div class="banner-button">
-			<a href="http://n.likamioglifsstill.is" class="banner-button-button button-blue-gradient button">Smelltu hér...</a>
+			<a href="http://n.likamioglifsstill.is" class="banner-button-button button-orange-gradient button">Smelltu hér!</a>
 		</div>
 	</div>
 

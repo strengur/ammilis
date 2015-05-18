@@ -102,6 +102,20 @@ h4 {
 	color: #FFFFFF;
 }
 
+.button-orange-gradient {
+	background: -webkit-linear-gradient(top, #ED8869, #F05A22);
+	background: -o-linear-gradient(top, #ED8869, #F05A22);
+	background: -moz-linear-gradient(top, #ED8869, #F05A22);
+	background: linear-gradient(top, #ED8869, #F05A22);
+	color: #FFFFFF;
+}
+
+.button-orange-gradient:hover {
+	background: #F05A22;
+	color: #FFFFFF;
+}
+
+
 .button {
 	border-radius: 4px;
 }
