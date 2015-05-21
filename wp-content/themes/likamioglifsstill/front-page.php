@@ -5,22 +5,8 @@
 	
 	<?php
 		
-		$uploads = wp_upload_dir();		
-/*
-		if ($dir = opendir($uploads['basedir'].'/banners')) {
-			$images = array();
-				while (false !== ($file = readdir($dir))) {
-					if ($file != "." && $file != "..") {
-						$images[] = $file; 
-					}
-				}
-				closedir($dir);
-		}
-*/
-
-		
+		$uploads = wp_upload_dir();				
 		$scanned_directory = array_diff(scandir($uploads['basedir'].'/banners/header-images'), array('..', '.'));
-
 		$rand_images = array_rand($scanned_directory);
 	?>
 		
