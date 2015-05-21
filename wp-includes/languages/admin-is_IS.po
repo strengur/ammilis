@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-04-28 13:07:57+0000\n"
+"PO-Revision-Date: 2015-05-18 23:48:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,83 +11,83 @@ msgstr ""
 "Project-Id-Version: Administration\n"
 
 #. translators: 1: Term splitting guide link
-#: wp-admin/about.php:123
+#: wp-admin/about.php:127
 msgid "Terms shared across multiple taxonomies will be split when one of them is updated. Find out more in the <a href=\"%1$s\">Plugin Developer Handbook</a>."
 msgstr "Hugtökum sem er deilt milli margra flokkana verður skipt þegar eitt af þeim er uppfært. Nálgastu frekari upplýsingar í <a href=\"%1$s\">handbók fyrir þróun á viðbótum</a>."
 
 #. translators: %s wp.a11y.speak()
-#: wp-admin/about.php:116
+#: wp-admin/about.php:120
 msgid "You can now send audible notifications to screen readers in JavaScript with %s. Pass it a string, and an update will be sent to a dedicated ARIA live notifications area."
 msgstr "Nú getur þú sent hljóðræðnar tilkynningar í skjálesara í JavaScript með %s. Mataðu það með streng, og tilkynning verður send í sérstakt svæði ARIA fyrir lifandi upplýsingar."
 
-#: wp-admin/about.php:79
+#: wp-admin/about.php:83
 msgid "Writing in WordPress, whatever your language, just got better. WordPress 4.2 supports a host of new characters out-of-the-box, including native Chinese, Japanese, and Korean characters, musical and mathematical symbols, and hieroglyphs."
 msgstr "Ritun í WordPress, óháð tungumáli, er orðin betri. WordPress 4.2 styður fjöldan allan af stöfum beint-úr-kassanum, þar með talið Kínverska, Japanska og Kóreska stafi, nótur og stærðfræðitákn, sem og híróglífur."
 
-#: wp-admin/about.php:96
+#: wp-admin/about.php:100
 msgid "Paste links from Tumblr.com and Kickstarter and watch them magically appear right in the editor. With every release, your publishing and editing experience get closer together."
 msgstr "Límdu inn tengla frá Tumblr.com og Kickstarter og fylgstu með því hvernig þeir birtast eins og fyrir töfra í ritlinum. Með hverri útgáfu færist útgáfu- og vinnslu upplifunin nær hvor annarri."
 
-#: wp-admin/about.php:90
+#: wp-admin/about.php:94
 msgid "Switch themes in the Customizer"
 msgstr "Skipta um þemu í Sérsníðaranum"
 
-#: wp-admin/about.php:101
+#: wp-admin/about.php:105
 msgid "Goodbye boring loading screen, hello smooth and simple plugin updates. Click <em>Update&nbsp;Now</em> and watch the magic happen."
 msgstr "Bless bless leiðinlegu hleðslusíður, halló fínu og einföldu uppfærslur viðbóta. Smelltu á <em>Uppfæra núna</a> og fylgstu með þegar galdurinn gerist."
 
-#: wp-admin/about.php:120
+#: wp-admin/about.php:124
 msgid "Shared term splitting"
 msgstr "Skipting sameiginlegra efnisorða"
 
-#: wp-admin/about.php:113
+#: wp-admin/about.php:117
 msgid "JavaScript accessibility"
 msgstr "JavaScript aðgengi"
 
-#: wp-admin/about.php:110
+#: wp-admin/about.php:114
 msgid "utf8mb4 support"
 msgstr "utf8mb4 stuðningur"
 
-#: wp-admin/about.php:100
+#: wp-admin/about.php:104
 msgid "Streamlined plugin updates"
 msgstr "Straumlínulagaðar uppfærslur viðbóta"
 
-#: wp-admin/about.php:60
+#: wp-admin/about.php:64
 msgid "Clip it, edit it, publish it. Get familiar with the new and improved Press This. From the <a href=\"%s\">Tools</a> menu, add Press This to your browser bookmark bar or your mobile device home screen. Once installed you can share your content with lightning speed. Sharing your favorite videos, images, and content has never been this fast or this easy."
 msgstr "Klipptu það til, breyttu því, birtu það. Kynntu þér nýtt og endurbætt Pressa þetta. Undir <a href=\"%s\">tól</a> valmyndinni, bættu Press This við bókamerkjastikuna í vafranum þínum eða á forsíðu snjalltækisins þíns. Að uppsetningu lokinni getur þú deilt efninu þínu á hraða ljóssins. Það hefur aldrei verið auðveldara eða fljótlegra að deila uppáhalds myndböndunum, myndunum eða efninu þínu."
 
-#: wp-admin/about.php:59
+#: wp-admin/about.php:63
 msgid "An easier way to share content"
 msgstr "Auðveldari leið til að deila efni"
 
-#: wp-admin/about.php:78
+#: wp-admin/about.php:82
 msgid "Extended character support"
 msgstr "Ríkulegri stafastuðningur"
 
 #. translators: 1: WP_Query, 2: WP_Comment_Query, 3: WP_User_Query
-#: wp-admin/about.php:129
+#: wp-admin/about.php:133
 msgid "%1$s, %2$s, and %3$s now support complex ordering with named meta query clauses."
 msgstr "%1$s, %2$s, og %3$s styðja nú flókna röðun með lýsigagnafyrirspurnum."
 
-#: wp-admin/about.php:111
+#: wp-admin/about.php:115
 msgid "Database character encoding has changed from utf8 to utf8mb4, which adds support for a whole range of new 4-byte characters."
 msgstr "Stafagerð gagnagrunns hefur breyst úr utf8 í utf8mb4, en það bætir við stuðning við fjöldann allan af nýjum 4-bæta stöfum."
 
-#: wp-admin/about.php:95
+#: wp-admin/about.php:99
 msgid "Even more embeds"
 msgstr "Jafnvel fleiri innfellur"
 
-#: wp-admin/about.php:91
+#: wp-admin/about.php:95
 msgid "Browse and preview your installed themes from the Customizer. Make sure the theme looks great with <em>your</em> content, before it debuts on your site. "
 msgstr "Flettu í og forskoðaðu uppsett þemu í Sérsníðaranum. Gakktu úr skugga um að þemað líti frábærlega út með <em>þínu</em> efni, áður en þú setur það í loftið."
 
 #. translators: 1: heart emoji, 2: frog face emoji, 3, monkey emoji, 4: pizza
 #. emoji, 5: Emoji Codex link
-#: wp-admin/about.php:82
+#: wp-admin/about.php:86
 msgid "Don&#8217;t use any of those characters? You can still have fun &mdash; emoji are now available in WordPress! Get creative and decorate your content with %1$s, %2$s, %3$s, %4$s, and all the many other <a href=\"%5$s\">emoji</a>."
 msgstr "Ekki að nota neinn af þessum stöfum? Þú getur samt haft gaman &mdash; emoji-táknmyndir eru nú studdar af WordPress! Vertu frumleg(ur) og skreyttu efnið þitt með %1$s, %2$s, %3$s, %4$s, og öllum hinum <a href=\"%5$s\">emoji-táknmyndunum</a>."
 
-#: wp-admin/about.php:126
+#: wp-admin/about.php:130
 msgid "Complex query ordering"
 msgstr "Flóknari röðun fyrirspurnar"
 
@@ -95,7 +95,7 @@ msgstr "Flóknari röðun fyrirspurnar"
 msgid "Thank you for updating! WordPress %s helps you communicate and share, globally."
 msgstr "Takk fyrir að uppfæra! WordPress %s aðstoðar þig við að eiga í samskiptum og deila, hnattrænt."
 
-#: wp-admin/about.php:82
+#: wp-admin/about.php:86
 msgid "https://codex.wordpress.org/Emoji"
 msgstr "https://codex.wordpress.org/Emoji"
 
@@ -316,7 +316,7 @@ msgstr "Þú getur uppfært <a href=\"https://codex.wordpress.org/Version_%1$s\"
 
 #: wp-admin/update-core.php:166
 msgid "<strong>Important:</strong> before updating, please <a href=\"https://codex.wordpress.org/WordPress_Backups\">back up your database and files</a>. For help with updates, visit the <a href=\"https://codex.wordpress.org/Updating_WordPress\">Updating WordPress</a> Codex page."
-msgstr "<strong>Áríðandi:</strong> áður en þú uppfærir, vinsamlegast <a href=\"https://codex.wordpress.org/WordPress_Backups\">taktu afrit af gagnagrunni og skrám</a>. Fyrir aðstoð með uppfærslu, heimsækt. <a href=\"https://codex.wordpress.org/Updating_WordPress\">Uppfæra WordPress</a> Codex síðuna."
+msgstr "<strong>Áríðandi:</strong> áður en þú uppfærir, vinsamlegast <a href=\"https://codex.wordpress.org/WordPress_Backups\">taktu afrit af gagnagrunni og skrám</a>. Ef þig vantar aðstoð með uppfærslu, skoðaðu síðuna <a href=\"https://codex.wordpress.org/Updating_WordPress\">Updating WordPress</a>."
 
 #: wp-admin/theme-install.php:97
 msgid "<a href=\"https://codex.wordpress.org/Using_Themes#Adding_New_Themes\" target=\"_blank\">Documentation on Adding New Themes</a>"
@@ -669,7 +669,7 @@ msgstr "Setja upp Pressa þetta"
 msgid "Bookmarklet"
 msgstr "Bókamerkjaforrit"
 
-#: wp-admin/about.php:61 wp-admin/tools.php:48
+#: wp-admin/about.php:65 wp-admin/tools.php:48
 msgid "Drag the bookmarklet below to your bookmarks bar. Then, when you&#8217;re on a page you want to share, simply &#8220;press&#8221; it."
 msgstr "Dragðu bókamerkjasmáforritið í bókamerkjastikuna. Þegar þú ert á vefsíðu sem þú vilt deila, einfaldlega &#8220;pressaðu&#8221; hana."
 
@@ -2499,6 +2499,11 @@ msgctxt "Button label for a next revision"
 msgid "Next"
 msgstr "Næsta"
 
+#: wp-admin/nav-menus.php:604
+msgctxt "menu"
+msgid "Use new menu"
+msgstr "Nota nýja valmynd"
+
 #: wp-admin/nav-menus.php:521
 msgid "To reorganize menu items, <strong>drag and drop items with your mouse or use your keyboard</strong>. Drag or move a menu item a little to the right to make it a submenu"
 msgstr "Til að endurraða á valmyndinni, getur þú <strong>dregið og sleppt hlutum með músinn eða notað lyklaborðið</strong>. Dragðu eða færðu valmyndar-hlutina til hægri til að gera undirvalmynd."
@@ -2608,11 +2613,6 @@ msgstr "Veldu valmynd"
 msgctxt "menu"
 msgid "Edit"
 msgstr "Breyta"
-
-#: wp-admin/nav-menus.php:604
-msgctxt "menu"
-msgid "Use new menu"
-msgstr "Notan ýja valmynd"
 
 #: wp-admin/nav-menus.php:377
 msgid "Menu locations updated."
@@ -2841,6 +2841,10 @@ msgstr "Ef þú vilt nota hlekkjarstjórnandann, settu þá vinsamlegast upp <a 
 msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
 msgstr "Sýsla með <a href=\"%1$s\">síðuhluti</a> eða <a href=\"%2$s\">valmyndir</a>"
 
+#: wp-admin/edit-form-advanced.php:287
+msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr "Reiturinn fyrir fyrirsögn og stóra svæðið eru með fasta staðsetningu, en þú getur endurstaðsett öll önnur box með því að draga þau til og sleppa. Þú getur líka minnkað eða stækkað svæðin með því að smella á fyrirsagnar-barinn á kassanum. Notaðu Skjávalmöguleika flipann til að sýna falda kassa (T.d Samantekt, Senda Feril, sérreiti, umræða, vefslóð og höfund) eða hvort þú vilt hafa 1- eða 2-dálka útlit á þessum skjá."
+
 #: wp-admin/widgets.php:68
 msgid "When changing themes, there is often some variation in the number and setup of widget areas/sidebars and sometimes these conflicts make the transition a bit less smooth. If you changed themes and seem to be missing widgets, scroll down on this screen to the Inactive Widgets area, where all of your widgets and their settings will have been saved."
 msgstr "Þegar þú skiptir um þemu þarftu að hafa í huga að það getur verið mismunur á uppsetningu á síðuhlutasvæði og hve margir síðuhlutir og hliðarslár fylgja hverju þema fyrir sig. Þetta getur gert umskiptin örlítið óþjálli. Ef þú skiptir um þema og síðuhlutirnir þínir virðast vera horfnir, skrollaðu þá niður á þessum skjá að Óvirkir aukahlutir svæðinu, þar hafa allir aukahlutir og stillingar þeirra verið vistaðir."
@@ -2848,10 +2852,6 @@ msgstr "Þegar þú skiptir um þemu þarftu að hafa í huga að það getur ve
 #: wp-admin/edit-form-advanced.php:355
 msgid "Inserting Media"
 msgstr "Set inn skrár"
-
-#: wp-admin/edit-form-advanced.php:287
-msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
-msgstr "Reiturinn fyrir fyrirsögn og stóra svæðið eru með fasta staðsetningu, en þú getur endurstaðsett öll önnur box með því að draga þau til og sleppa. Þú getur líka minnkað eða stækkað svæðin með því að smella á fyrirsagnar-barinn á kassanum. Notaðu Skjávalmöguleika flipann til að sýna falda kassa (T.d Samantekt, Senda Feril, sérreiti, umræða, vefslóð og höfund) eða hvort þú vilt hafa 1- eða 2-dálka útlit á þessum skjá."
 
 #: wp-admin/custom-background.php:89
 msgid "To use a background image, simply upload it or choose an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
@@ -2979,7 +2979,7 @@ msgstr "Notaðu WP_Image_Editor::rotate"
 msgid "Use WP_Image_Editor::flip"
 msgstr "Notaðu WP_Image_Editor::flip"
 
-#: wp-admin/includes/update-core.php:1177 wp-admin/update-core.php:433
+#: wp-admin/includes/update-core.php:1180 wp-admin/update-core.php:433
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%2$s\">here</a>."
 msgstr "Velkomin í WordPress %1$s. Erum að senda þig á síðuna Um WordPress. Ef ekki, smelltu þá <a href=\"%2$s\">hér</a>."
 
@@ -4143,18 +4143,18 @@ msgstr "Sýna tækjaslá þegar vafrað er um vefinn"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:167
+#: wp-admin/about.php:171
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Útgáfa %1$s</strong> lagfærði öryggis atvik og lagfærði %2$s villu (e: bug)."
 msgstr[1] "<strong>Útgáfa %1$s</strong> lagfærði öryggis atvik og lagfærði %2$s villur (e: bugs)."
 
-#: wp-admin/about.php:47 wp-admin/about.php:174
+#: wp-admin/about.php:47 wp-admin/about.php:51 wp-admin/about.php:178
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Fyrir nánari upplýsingar, sjá <a href=\"%s\">útgáfutilkynningu</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:163
+#: wp-admin/about.php:167
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Útgáfa %1$s</strong> lappaði upp á %2$s hugbúnaðarvillu."
@@ -4162,7 +4162,7 @@ msgstr[1] "<strong>Útgáfa %1$s</strong> lappaði upp á %2$s hugbúnaðarvillu
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:171
+#: wp-admin/about.php:45 wp-admin/about.php:175
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Útgáfa %1$s</strong> lappaði upp á öryggisholur og lagfærð. %2$s hugbúnaðarvillu."
@@ -4172,19 +4172,19 @@ msgstr[1] "<strong>Útgáfa %1$s</strong> lappaði upp á öryggisholur og lagf�
 msgid "Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab in the upper corner."
 msgstr "Velkominn á WordPress stjórnborðið! Þetta er sá skjár sem þú munt sjá þegar þú skráir þig inn á vefinn og veitir þér aðgengi að allri umsýslu á WordPress. Þú getur fengið aðstoð á hvaða skjá sem er með því að velja hjálparflipan sem þú finnur upp í hægra horninu. "
 
-#: wp-admin/about.php:154
+#: wp-admin/about.php:158
 msgid "Maintenance Release"
 msgid_plural "Maintenance Releases"
 msgstr[0] "Viðhaldsuppfærsla"
 msgstr[1] "Viðhaldsuppfærslur"
 
-#: wp-admin/about.php:44 wp-admin/about.php:155
+#: wp-admin/about.php:159
 msgid "Security Release"
 msgid_plural "Security Releases"
 msgstr[0] "Öryggisuppfærsla"
 msgstr[1] "Öryggisuppfærslur"
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:44 wp-admin/about.php:160
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "Viðhalds- og öryggisuppfærsla"
@@ -4195,7 +4195,7 @@ msgid "What&#8217;s New"
 msgstr "Hvað er nýtt"
 
 #. translators: 1: WordPress version number.
-#: wp-admin/about.php:45 wp-admin/about.php:159
+#: wp-admin/about.php:49 wp-admin/about.php:163
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "<strong>Útgáfa %1$s</strong> lappaði upp í öryggisholu."
@@ -4205,11 +4205,11 @@ msgstr[1] "<strong>Útgáfa %1$s</strong> lappaði upp í nokkrar öryggisholur.
 msgid "This screen allows you to choose your default permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Þessi skjár leyfir þér að velja hvernig slóðin á föst vefföng munu verða. Þú getur valið úr algengum stillingum eða útbúið sérsniðin URL strúktúr."
 
-#: wp-admin/about.php:138
+#: wp-admin/about.php:142
 msgid "Return to Updates"
 msgstr "Til baka í uppfærslur"
 
-#: wp-admin/includes/update-core.php:1178 wp-admin/update-core.php:434
+#: wp-admin/includes/update-core.php:1181 wp-admin/update-core.php:434
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Velkomin(n) . WordPres. %1$s. <a href=\"%2$s\">Kynnast betur</a>."
 
@@ -4505,11 +4505,11 @@ msgstr "Líklega er wp-admin/includes/template.php lesið beint inn til þess a�
 msgid "Welcome to WordPress %s"
 msgstr "Velkomin(n) á WordPress %s"
 
-#: wp-admin/about.php:142
+#: wp-admin/about.php:146
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Tilbaka á stjórnborð &rarr; Heim"
 
-#: wp-admin/about.php:138
+#: wp-admin/about.php:142
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Tilbaka á stjórnborð &rarr; Uppfærslur"
 
@@ -4521,7 +4521,7 @@ msgstr "WordPress er byggt upp af ástríðufullum einstaklingum hvaðanæva að
 msgid "Core Developers"
 msgstr "Kjarnaforritarar"
 
-#: wp-admin/about.php:106
+#: wp-admin/about.php:110
 msgid "Under the Hood"
 msgstr "Undir húddinu"
 
@@ -5689,13 +5689,13 @@ msgstr "FTP/SSH lykilorð"
 msgid "FTP/SSH Username"
 msgstr "FTP/SSH Notandanafn"
 
-#: wp-admin/options-reading.php:55
-msgid "You can choose what&#8217;s displayed on the front page of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static home page, you first need to create two <a href=\"%s\">Pages</a>. One will become the front page, and the other will be where your posts are displayed."
-msgstr ""
-
 #: wp-admin/themes.php:273
 msgid "The following themes are installed but incomplete. Themes must have a stylesheet and a template."
 msgstr "Eftirfarandi þemur eru uppsettar en með ófullnægjandi virkni. Þemu verða að hafa stílsnið og sniðmát."
+
+#: wp-admin/options-reading.php:55
+msgid "You can choose what&#8217;s displayed on the front page of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static home page, you first need to create two <a href=\"%s\">Pages</a>. One will become the front page, and the other will be where your posts are displayed."
+msgstr "Þú getur valið það sem er birt á forsíðu þíns vefs. Það geta verið færslur í öfugri tímaröð (hefðbundið blogg), eða föst/statísk síða. Til þess að setja statíska forsíðu þarftu að búa til tvær <a href=\"%s\">síður</a> . Ein verður forsíðan og hin verður síðan þar sem færslurnar þínar verða birtar."
 
 #: wp-admin/options-permalink.php:31
 msgid "When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes <code>%category%</code> or <code>%tag%</code>."
@@ -5721,13 +5721,13 @@ msgstr "Til að bæta við nýjum notanda á vefinn þinn, smelltu á Bæta Nýj
 msgid "If you want to remove the widget but save its setting for possible future use, just drag it into the Inactive Widgets area. You can add them back anytime from there. This is especially helpful when you switch to a theme with fewer or different widget areas."
 msgstr "Ef þú vilt fjarlægja síðuhlut en geyma stillingar til notkunar síðar, dragðu hann einfaldlega yfir í svæðið fyrir Óvirka síðuhluti. Þú getur bætt þeim við þaðan hvenær sem er. Þetta reynist mjög hjálplegt þegar þú skiptir yfir í þema með færri eða öðruvísi hliðarslár."
 
-#: wp-admin/options-media.php:18
-msgid "You can set maximum sizes for images inserted into your written content; you can also insert an image as Full Size."
-msgstr ""
-
 #: wp-admin/options-general.php:85
 msgid "Most themes display the site title at the top of every page, in the title bar of the browser, and as the identifying name for syndicated feeds. The tagline is also displayed by many themes."
 msgstr "Flest þemu birta titil vefs efst á hverri síðu í titilrönd vafrans ásamt því að vera kenninafn fyrir fréttir af vefnum á fyrirsagnaformi. Kjörorð er einnig notað af mörgum sniðum."
+
+#: wp-admin/options-media.php:18
+msgid "You can set maximum sizes for images inserted into your written content; you can also insert an image as Full Size."
+msgstr "Þú getur skilgreint hámarksstærð mynda sem þú fellir inn í efnið þitt; þú getur einnig sett mynd inn í fullri stærð."
 
 #: wp-admin/edit-form-advanced.php:391
 msgid "<strong>Order</strong> - Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
@@ -5765,13 +5765,13 @@ msgstr "Síður eru svipuð Innlegg í að þeir hafa titil, meginmáls texta og
 msgid "Administrators have access to all the administration features."
 msgstr "Kerfisstjórar hafa aðgang að öllum valmyndum er snúa að kerfisstjórnun. "
 
-#: wp-admin/plugin-editor.php:130
-msgid "You can use the editor to make changes to any of your plugins&#8217; individual PHP files. Be aware that if you make changes, plugins updates will overwrite your customizations."
-msgstr ""
-
 #: wp-admin/link-manager.php:55
 msgid "If you delete a link, it will be removed permanently, as Links do not have a Trash function yet."
 msgstr "Ef þú eyðir tengli þá er honum eytt varanlega þar sem tenglar eru ekki enn komnir með stuðning um að flytja í ruslið."
+
+#: wp-admin/plugin-editor.php:130
+msgid "You can use the editor to make changes to any of your plugins&#8217; individual PHP files. Be aware that if you make changes, plugins updates will overwrite your customizations."
+msgstr "Þú getur notað ritilinn til þess að breyta hvaða PHP skrá sem er í viðbótunum þínum. Athugaðu að ef þú framkvæmir breytingar munu uppfærslur á viðbótum yfirskrifa þær."
 
 #: wp-admin/link-manager.php:47
 msgid "You can add links here to be displayed on your site, usually using <a href=\"%s\">Widgets</a>. By default, links to several sites in the WordPress community are included as examples."
@@ -5813,13 +5813,13 @@ msgstr "Notandanafninu þínu er ekki hægt að breyta, en þú getur notað að
 msgid "Remember to click the Update Profile button when you are finished."
 msgstr "Mundu að smella á hnappinn Uppfæra prófíl þegar þú ert búin(n)."
 
-#: wp-admin/comment.php:54
-msgid "You can also moderate the comment from this screen using the Status box, where you can also change the timestamp of the comment."
-msgstr ""
-
 #: wp-admin/comment.php:53
 msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
 msgstr "Það er mögulegt að breyta innihaldi athugasemda þegar þörf er á. Þetta er oft gagnlegt td. í þeim tilfellum þegar um stafsetningarvillur er um að ræða. "
+
+#: wp-admin/comment.php:54
+msgid "You can also moderate the comment from this screen using the Status box, where you can also change the timestamp of the comment."
+msgstr "Þú getur einnig ritstýrt athugasemdinni á þessari síðu með því að nota Stöðu kassann, þar getur þú einnig breytt tímastimpli athugasemdarinnar."
 
 #: wp-admin/nav-menus.php:711
 msgid "Enter menu name here"
@@ -5941,10 +5941,6 @@ msgstr "Veldu viðbót til þess að breyta úr valmyndinni efst til hægri og s
 msgid "Most of the time, plugins play nicely with the core of WordPress and with other plugins. Sometimes, though, a plugin&#8217;s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue."
 msgstr "Oftast vinna viðbætur vel með WordPress kjarnanum og öðrum viðbótum. Þó getur það komið fyrir að kóði í viðbót geti truflað aðra viðbót, og þannig skapað vandamál. Ef vefurinn fer að haga sér undarlega, þá gæti þetta verið orsökin. Prófaðu að gera allar viðbætur óvirkar, og virkja þær svo jafnt og þétt þangað til þú hefur fundið út hver sökudólgurinn er."
 
-#: wp-admin/widgets.php:52
-msgid "Widgets are independent sections of content that can be placed into any widgetized area provided by your theme (commonly called sidebars). To populate your sidebars/widget areas with individual widgets, drag and drop the title bars into the desired area. By default, only the first widget area is expanded. To populate additional widget areas, click on their title bars to expand them."
-msgstr ""
-
 #: wp-admin/theme-editor.php:27
 msgid "You can use the Theme Editor to edit the individual CSS and PHP files which make up your theme."
 msgstr "Þú getur notað þemaritillinn til þess að breyta einstökum CSS og PHP skjölum sem byggja upp þemað."
@@ -5956,6 +5952,10 @@ msgstr "<strong>Heilræði:</strong> - Hugsaðu vandlega um hættuna á því a�
 #: wp-admin/theme-editor.php:31
 msgid "After typing in your edits, click Update File."
 msgstr "Eftir að þú hefur framkvæmt breytingar mundu þá að ýta á uppfæra skrá."
+
+#: wp-admin/widgets.php:52
+msgid "Widgets are independent sections of content that can be placed into any widgetized area provided by your theme (commonly called sidebars). To populate your sidebars/widget areas with individual widgets, drag and drop the title bars into the desired area. By default, only the first widget area is expanded. To populate additional widget areas, click on their title bars to expand them."
+msgstr "Síðuhlutir eru sjálfstæðar efniseiningar sem hægt er að flytja í síðuhlutavædd svæði er þemað þitt býður upp á (einnig þekkt sem hliðarslár). Til þess að fylla hliðarslár/síðuhlutasvæði með sjálfstæðum síðuhlutum, dragðu og slepptu hausnum þangað sem þú vilt. Sjálfgefið er að aðeins fyrsta síðuhlutasvæðið sé útvíkkað. Til þess að fylla inn í önnur síðuhlutasvæði, smelltu á hausinn á þeim og útvíkkaðu þau."
 
 #: wp-admin/widgets.php:60
 msgid "Widgets may be used multiple times. You can give each widget a title, to display on your site, but it&#8217;s not required."
@@ -5997,10 +5997,6 @@ msgstr "Hver er munurinn milli flokka og merkja ? Vanalega eru merki notuð til 
 msgid "When adding a new category on this screen, you&#8217;ll fill in the following fields:"
 msgstr "Þegar flokkum er bætt við á þessum skjá þá þarft þú að fylla út eftirfarandi reiti:"
 
-#: wp-admin/edit-tags.php:190
-msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
-msgstr ""
-
 #: wp-admin/edit-tags.php:211
 msgid "When adding a new tag on this screen, you&#8217;ll fill in the following fields:"
 msgstr "Þegar efnisorðum er bætt við á þessum skjá þá þarftu að fylla út eftirfarani reiti:"
@@ -6012,6 +6008,10 @@ msgstr "<strong>Lýsing</strong> er ekki alltaf áberandi en sumar þemu birta h
 #: wp-admin/edit-tags.php:224
 msgid "You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
 msgstr "Þú getur breytt því hvernig þessi skjár kemur þér fyrir sjónir í stilla skjá flipanum. Í honum getur þú valið hve margir hlutir birtast per skjá og hvaða dálka á að birta eða fela í töflu."
+
+#: wp-admin/edit-tags.php:190
+msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
+msgstr "Þú getur notað flokka til þess að skilgreina hluta vefsvæðisins og parað saman skildar færslur. Sjálfgefni flokkurinn er &#8222;Óflokkað&#8220; þangað til þú breytir því í <a href=\"%s\">ritstillingum</a>."
 
 #: wp-admin/upload.php:183
 msgid "You can narrow the list by file type/status using the text link filters at the top of the screen. You also can refine the list by date using the dropdown menu above the media table."
@@ -6112,18 +6112,6 @@ msgstr "<strong>Titill</strong> - Sláðu inn titil fyrir færsluna þína. Efti
 msgid "You can customize the display of this screen in a number of ways:"
 msgstr "Þú getur séraðlagað birtingarform þessa skjás á ýmsa vegu: "
 
-#: wp-admin/edit.php:184
-msgid "You can filter the list of posts by post status using the text links in the upper left to show All, Published, Draft, or Trashed posts. The default view is to show all posts."
-msgstr ""
-
-#: wp-admin/edit.php:186
-msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
-msgstr ""
-
-#: wp-admin/edit.php:185
-msgid "You can view posts in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
-msgstr ""
-
 #: wp-admin/edit.php:183
 msgid "You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab."
 msgstr "Þú getur falið/birt dálka eftir þínum þörfum og jafnframt ákveðið hve margar færslur á að birta per skjá með því að nota flipan fyrir skjávalmöguleika. "
@@ -6131,6 +6119,18 @@ msgstr "Þú getur falið/birt dálka eftir þínum þörfum og jafnframt ákve�
 #: wp-admin/edit.php:193
 msgid "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:"
 msgstr "Ef þú dvelur með músarbendil yfir færslulista þá munu aðgerðartenglar birtast sem leyfa þér að sýsla með færslu. Þú getur framkvæmt eftirfaradi aðgerðir:"
+
+#: wp-admin/edit.php:184
+msgid "You can filter the list of posts by post status using the text links in the upper left to show All, Published, Draft, or Trashed posts. The default view is to show all posts."
+msgstr "Þú getur síað listann af færslum eftir stöðu færslna með því að nota textahlekkina efst til vinstri til þess að birta Allar, birtar, uppköst eða eyddar færslur. Sjálfgefið er að birta allar færslur."
+
+#: wp-admin/edit.php:185
+msgid "You can view posts in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
+msgstr "Þú getur skoðað færslur í einföldum lista fyrirsagna eða með útdrætti. Veldu birtinguna sem þú kýst frekar með því að smella á táknmyndirnar efst í listanum til hægri."
+
+#: wp-admin/edit.php:186
+msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
+msgstr "Þú getur síað listann til þess að birta aðeins færslur í ákveðnum flokk eða frá ákveðnum mánuði með því að nota fellivalmyndina fyrir ofan færslulistann. Smelltu á sía hnappinn eftir að þú hefur valið. Þú getur einni síað listann með því að smella á höfund færslu, flokk eða efnisorð í færslulista."
 
 #: wp-admin/plugins.php:473
 msgid "Search Installed Plugins"
@@ -6790,7 +6790,7 @@ msgid "Update WordPress"
 msgstr "Uppfæra WordPress"
 
 #: wp-admin/includes/class-wp-upgrader.php:2672
-#: wp-admin/includes/update-core.php:1174 wp-admin/update-core.php:432
+#: wp-admin/includes/update-core.php:1177 wp-admin/update-core.php:432
 msgid "WordPress updated successfully"
 msgstr "WordPress uppfærsla tókst"
 
@@ -6819,7 +6819,7 @@ msgstr "Sumartími hefst: <code>%s</code>."
 msgid "Delete Menu"
 msgstr "Eyða valmynd"
 
-#: wp-admin/about.php:142
+#: wp-admin/about.php:146
 msgid "Go to Dashboard"
 msgstr "Fara á Stjórnborð"
 
@@ -7910,7 +7910,7 @@ msgstr "Uppfæra notanda"
 msgid "Update to %s"
 msgstr "Uppfæra í %s"
 
-#: wp-admin/includes/update-core.php:1055
+#: wp-admin/includes/update-core.php:1058
 msgid "Upgrading database&#8230;"
 msgstr "Uppfæri gagnagrunn&#8230;"
 
@@ -8815,7 +8815,7 @@ msgstr "Enginn aðgangur að skráarkerfi."
 
 #: wp-admin/includes/file.php:664 wp-admin/includes/file.php:761
 #: wp-admin/includes/file.php:794 wp-admin/includes/update-core.php:1020
-#: wp-admin/includes/update-core.php:1123
+#: wp-admin/includes/update-core.php:1126
 msgid "Could not copy file."
 msgstr "Ekki tókst að afrita skrá."
 
@@ -8829,7 +8829,7 @@ msgstr "Gat ekki búið til tímabundna skrá."
 
 #: wp-admin/includes/class-wp-upgrader.php:133 wp-admin/includes/file.php:644
 #: wp-admin/includes/file.php:748 wp-admin/includes/file.php:799
-#: wp-admin/includes/update-core.php:1128
+#: wp-admin/includes/update-core.php:1131
 msgid "Could not create directory."
 msgstr "Ekki tókst að setja upp möppuna."
 
@@ -9512,7 +9512,7 @@ msgstr "Færsla uppfærð. <a href=\"%s\">Skoða færslu</a>"
 msgid "Posts"
 msgstr "Færslur"
 
-#: wp-admin/about.php:64 wp-admin/tools.php:16 wp-admin/tools.php:40
+#: wp-admin/about.php:68 wp-admin/tools.php:16 wp-admin/tools.php:40
 #: wp-admin/tools.php:51
 msgid "Press This"
 msgstr "Birta þetta"

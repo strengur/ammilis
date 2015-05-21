@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-04-30 11:54:24+0000\n"
+"PO-Revision-Date: 2015-05-09 09:33:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -124,13 +124,13 @@ msgid_plural "%1$s Responses to %2$s"
 msgstr[0] "%1$s Svar við %2$s"
 msgstr[1] "%1$s Svör við %2$s"
 
-#: wp-includes/user.php:137
-msgid "<strong>ERROR</strong>: Invalid username. <a href=\"%s\">Lost your password?</a>"
-msgstr "<strong>VILLA</strong>: Ógilt notandanafn. <a href=\"%s\">Glataðir þú lykilorðinu þínu?</a>"
-
 #: wp-includes/user.php:153
 msgid "<strong>ERROR</strong>: The password you entered for the username <strong>%1$s</strong> is incorrect. <a href=\"%2$s\">Lost your password?</a>"
-msgstr "<strong>VILLA:</strong> Lykilorðið sem þú slóst inn fyrir <strong>username%1$s</strong> er rangt. <a href=\"%2$s\">Glataðir þú lykilorðinu þínu?</a>"
+msgstr "<strong>VILLA:</strong> Lykilorðið sem þú slóst inn fyrir <strong>username%1$s</strong> er rangt. <a href=\"%2$s\">Týndir þú lykilorðinu þínu?</a>"
+
+#: wp-includes/user.php:137
+msgid "<strong>ERROR</strong>: Invalid username. <a href=\"%s\">Lost your password?</a>"
+msgstr "<strong>VILLA</strong>: Ógilt notandanafn. <a href=\"%s\">Týndir þú lykilorðinu þínu?</a>"
 
 #. translators: %d: nth image found in a post
 #: wp-includes/script-loader.php:486
@@ -158,7 +158,7 @@ msgstr "Sérsníðari"
 msgid "A term with the name already exists in this taxonomy."
 msgstr "Efnisorð með sama heiti er nú þegar til í þessari flokkun."
 
-#: wp-includes/taxonomy.php:4173
+#: wp-includes/taxonomy.php:4169
 msgid "Could not split shared term."
 msgstr "Gat ekki skipt efnisorði."
 
@@ -736,7 +736,7 @@ msgstr "(án merkingar)"
 
 #. translators: %s: taxonomy label, %l: list of terms formatted as per
 #. $term_template
-#: wp-includes/taxonomy.php:4483
+#: wp-includes/taxonomy.php:4479
 msgid "%s: %l."
 msgstr "%s: %l."
 
@@ -3425,10 +3425,6 @@ msgstr "heilskjár"
 msgid "Bold (Ctrl + B)"
 msgstr "Feitletrað (Ctrl + B)"
 
-#: wp-includes/class-wp-editor.php:1271
-msgid "Ordered list (Alt + Shift + O)"
-msgstr "Tölulisti (Alt + Shift + O)"
-
 #: wp-includes/class-wp-editor.php:1270
 msgid "Unordered list (Alt + Shift + U)"
 msgstr "Punktalisti (Alt + Shift + U)"
@@ -3436,6 +3432,10 @@ msgstr "Punktalisti (Alt + Shift + U)"
 #: wp-includes/class-wp-editor.php:1275
 msgid "Unlink (Alt + Shift + S)"
 msgstr "Aftengja (Alt + Shift + S)"
+
+#: wp-includes/class-wp-editor.php:1271
+msgid "Ordered list (Alt + Shift + O)"
+msgstr "Raðaður listi (Alt + Shift + O)"
 
 #: wp-includes/class-wp-editor.php:1274
 msgid "Insert/edit link (Alt + Shift + A)"
@@ -3478,13 +3478,13 @@ msgctxt "post format"
 msgid "Format"
 msgstr "Snið"
 
-#: wp-includes/class-wp-editor.php:1453
-msgid "Or link to existing content"
-msgstr "Eða hlekkja á innihald sem er til"
-
 #: wp-includes/class-wp-editor.php:1442
 msgid "Enter the destination URL"
 msgstr "Sláðu inn lokaslóð"
+
+#: wp-includes/class-wp-editor.php:1453
+msgid "Or link to existing content"
+msgstr "Eða tengja við efni sem er til"
 
 #: wp-includes/query.php:144 wp-includes/query.php:165
 #: wp-includes/query.php:186 wp-includes/query.php:210
@@ -3520,7 +3520,7 @@ msgstr "Því miður, þú getur ekki birt þessa færslu."
 
 #: wp-includes/pluggable.php:1459
 msgid "Permalink: %s"
-msgstr "Fast veffang: %s"
+msgstr "Föst vefslóð: %s"
 
 #: wp-includes/post-formats.php:90
 msgctxt "Post format"
@@ -3559,7 +3559,7 @@ msgstr "Það er bara hægt að nota statísk klasaköll eða föll í óuppsett
 
 #: wp-includes/post.php:3011
 msgid "Passing an integer number of posts is deprecated. Pass an array of arguments instead."
-msgstr "Að nota heiltölunúmer yfir færslur er ekki lengur stutt. Notið frekar fylki (e: array) af rökum í staðinn.   "
+msgstr "Að nota heiltölunúmer yfir færslur er ekki lengur stutt. Notið frekar fylki (e: array) af rökum í staðinn."
 
 #: wp-includes/post-formats.php:92
 msgctxt "Post format"
@@ -3718,7 +3718,7 @@ msgstr "Sýsla með athugasemdir"
 
 #: wp-includes/ms-functions.php:463 wp-includes/ms-functions.php:614
 msgid "Only lowercase letters (a-z) and numbers are allowed."
-msgstr "Eingöngu lágstaffir (a-ö) og tölustafir eru leyfilegir."
+msgstr "Eingöngu lágstafir (a-z) og tölustafir eru leyfilegir."
 
 #: wp-includes/query.php:2429
 msgid "\"caller_get_posts\" is deprecated. Use \"ignore_sticky_posts\" instead."
@@ -3974,10 +3974,6 @@ msgstr "Bæta við nýrri færslu"
 msgid "Edit Page"
 msgstr "Breyta síðu"
 
-#: wp-includes/post.php:1641
-msgid "Parent Page:"
-msgstr "Foreldri Síðu:"
-
 #: wp-includes/post.php:1638
 msgid "Search Pages"
 msgstr "Leita í síðum"
@@ -3995,6 +3991,10 @@ msgstr "Síður"
 msgctxt "post type general name"
 msgid "Posts"
 msgstr "Færslur"
+
+#: wp-includes/post.php:1641
+msgid "Parent Page:"
+msgstr "Yfirsíða:"
 
 #: wp-includes/post.php:1632
 msgctxt "post type singular name"
@@ -4376,6 +4376,10 @@ msgstr "Þessi vefur hefur ekki verið gerður virkur enn. Ef þú ert í vandr�
 msgid "If you&#8217;re not going to use a great site domain, leave it for a new user. Now have at it!"
 msgstr "Ef þú ætlar þér ekki að nota þessa frábæru vefslóð, skildu hana eftir og leyfðu öðrum notanda að fá hana."
 
+#: wp-includes/pluggable.php:1426
+msgid "New trackback on your post \"%s\""
+msgstr "Ný bakvísun við færsluna þína \"%s\""
+
 #: wp-includes/pluggable.php:1436
 msgid "New pingback on your post \"%s\""
 msgstr "Ný bakvísun við færslu \"%s\""
@@ -4383,10 +4387,6 @@ msgstr "Ný bakvísun við færslu \"%s\""
 #: wp-includes/pluggable.php:1446
 msgid "New comment on your post \"%s\""
 msgstr "Ný athugasemd við færsluna þína \"%s\""
-
-#: wp-includes/pluggable.php:1426
-msgid "New trackback on your post \"%s\""
-msgstr "Ný bakvísun við færslu \"%s\""
 
 #: wp-includes/pluggable.php:1577
 msgid "A new comment on the post \"%s\" is waiting for your approval"
@@ -4888,7 +4888,7 @@ msgstr "Gat ekki opnað hald fyrir fopen() til %s"
 msgid "Could not read image size"
 msgstr "Gat ekki lesið stærð myndar"
 
-#: wp-includes/comment.php:2368
+#: wp-includes/comment.php:2375
 msgid "Could not update comment status"
 msgstr "Gat ekki uppfært stöðu fyrir athugasemdir"
 
@@ -4967,7 +4967,7 @@ msgid "Duplicate comment detected; it looks as though you&#8217;ve already said 
 msgstr "Tvær eins athugasemdir; það lítur út fyrir að þú hafir þegar fært þessi orð inn!"
 
 #: wp-includes/taxonomy.php:1318 wp-includes/taxonomy.php:3382
-#: wp-includes/taxonomy.php:4351
+#: wp-includes/taxonomy.php:4347
 msgid "Empty Term"
 msgstr "Ekkert sérheiti"
 
@@ -5071,10 +5071,6 @@ msgstr "Lárétt bil"
 #: wp-includes/default-widgets.php:1178
 msgid "How many items would you like to display?"
 msgstr "Hversu marga þætti viltu birta?"
-
-#: wp-includes/script-loader.php:261
-msgid "IO error."
-msgstr "IO-villa."
 
 #: wp-includes/script-loader.php:234
 msgid "Image"
@@ -5205,10 +5201,6 @@ msgstr "Nýtt skjal"
 msgid "Newer Comments &raquo;"
 msgstr "Nýrri athugasemdir &raquo;"
 
-#: wp-includes/script-loader.php:232
-msgid "Next &gt;"
-msgstr "Næst &gt;"
-
 #: wp-includes/link-template.php:1645 wp-includes/link-template.php:1877
 msgid "Next Post"
 msgstr "Næsta færsla"
@@ -5247,14 +5239,6 @@ msgstr "Úbbs: %s"
 msgid "PM"
 msgstr "e.h."
 
-#: wp-includes/default-widgets.php:96
-msgid "Page ID"
-msgstr "Síðuauðkenni"
-
-#: wp-includes/default-widgets.php:102
-msgid "Page IDs, separated by commas."
-msgstr "Auðkennisnúmer síðna, aðskilin með kommu."
-
 #: wp-includes/general-template.php:851
 msgid "Page not found"
 msgstr "Síða finnst ekki"
@@ -5271,21 +5255,9 @@ msgstr "Titill síðu"
 msgid "Paragraph"
 msgstr "Efnisgrein"
 
-#: wp-includes/pluggable.php:1661
-msgid "Password Lost and Changed for user: %s"
-msgstr "Lykilorði breytt fyrir notanda: %s"
-
 #: wp-login.php:759 wp-login.php:942
 msgid "Password Lost and Found"
 msgstr "Lykilorð tapað/fundið"
-
-#: wp-includes/script-loader.php:471
-msgid "Password Protected"
-msgstr "Verndað með Lykilorði"
-
-#: wp-login.php:337
-msgid "Password reset is not allowed for this user"
-msgstr "Ekki er hægt að endursetja Lykilorð fyrir þetta notandanafn."
 
 #: wp-includes/pluggable.php:1698
 msgid "Password: %s"
@@ -5329,10 +5301,6 @@ msgstr "Upplýsingar um viðbót:"
 #: wp-includes/comment-template.php:2238
 msgid "Post Comment"
 msgstr "Senda inn athugasemd"
-
-#: wp-login.php:102
-msgid "Powered by WordPress"
-msgstr "Knúið með WordPress"
 
 #: wp-includes/link-template.php:1645 wp-includes/link-template.php:1877
 msgid "Previous Post"
@@ -5755,10 +5723,6 @@ msgstr "Tenglayfirlit þitt"
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr "[%1$s] Athugasemd: \"%2$s\""
 
-#: wp-includes/pluggable.php:1692
-msgid "[%s] New User Registration"
-msgstr "[%s] Nýskráning notanda"
-
 #: wp-includes/locale.php:162
 msgid "am"
 msgstr "f.h."
@@ -5879,10 +5843,6 @@ msgstr "Friðhelgi:"
 msgid "Email&nbsp;Address:"
 msgstr "Tölvupóstfang:"
 
-#: wp-signup.php:453
-msgid "Next"
-msgstr "Næstu"
-
 #: wp-signup.php:498
 msgid "%s is your new username"
 msgstr "%s er nýja notandanafnið þitt"
@@ -5935,21 +5895,61 @@ msgstr "Stofnaðu þinn eigin %s aðgang á nokkrum sekúndum"
 msgid "Rather than reaching for your mouse to click on the toolbar, use these access keys. Windows and Linux use Ctrl + letter. Macintosh uses Command + letter."
 msgstr "Í staðinn fyrir að nota músina til þess að smella á tækjaslá geturðu notað þessa flýtilykla. Windows og Linux stýrikerfin nota Ctrl + stafur. Macintosh-vélar nota Command + stafur."
 
+#: wp-signup.php:453
+msgid "Next"
+msgstr "Næsta"
+
 #: wp-login.php:759 wp-login.php:942
 msgid "Lost your password?"
-msgstr "Tapað lykilorð?"
+msgstr "Týnt lykilorð?"
+
+#: wp-login.php:548
+msgid "Lost Password"
+msgstr "Týnt lykilorð"
+
+#: wp-login.php:337
+msgid "Password reset is not allowed for this user"
+msgstr "Ekki er leyft að endursetja lykilorð þessa notanda"
+
+#: wp-login.php:102
+msgid "Powered by WordPress"
+msgstr "Knúið af WordPress"
+
+#: wp-includes/script-loader.php:471
+msgid "Password Protected"
+msgstr "Varið með lykilorði"
+
+#: wp-includes/script-loader.php:232
+msgid "Next &gt;"
+msgstr "Næsta &gt;"
+
+#: wp-includes/script-loader.php:261
+msgid "IO error."
+msgstr "Inntaks/útaks villa."
+
+#: wp-includes/pluggable.php:1692
+msgid "[%s] New User Registration"
+msgstr "[%s] Nýr notandi skráður"
+
+#: wp-includes/pluggable.php:1665
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Lykilorði týnt/breytt"
+
+#: wp-includes/pluggable.php:1661
+msgid "Password Lost and Changed for user: %s"
+msgstr "Lykilorð týnt og því breytt fyrir notanda: %s"
+
+#: wp-includes/default-widgets.php:102
+msgid "Page IDs, separated by commas."
+msgstr "Auðkennisnúmer (ID) síðna, aðskilin með kommu."
 
 #: wp-signup.php:449
 msgid "Just a username, please."
 msgstr "Aðeins notandanafn, takk."
 
-#: wp-includes/taxonomy.php:4554
+#: wp-includes/taxonomy.php:4550
 msgid "Invalid object ID"
 msgstr "Ógilt auðkenni (ID) hlutar"
-
-#: wp-login.php:548
-msgid "Lost Password"
-msgstr "Tapað lykilorð"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1299
 #: wp-includes/class-wp-xmlrpc-server.php:1836
@@ -6062,6 +6062,10 @@ msgstr "Sameina töflureiti"
 msgid "Missing Attachment"
 msgstr "Viðhengi vantar"
 
+#: wp-includes/default-widgets.php:96
+msgid "Page ID"
+msgstr "Síðuauðkenni (ID)"
+
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:154
 msgid "Nov_November_abbreviation"
@@ -6146,7 +6150,7 @@ msgstr "Þetta efnisorð verður að hafa nafn"
 msgid "<strong>ERROR</strong>: The password field is empty."
 msgstr "<strong>VILLA</strong>: Reitur fyrir lykilorð er auður."
 
-#: wp-includes/wp-db.php:2949
+#: wp-includes/wp-db.php:2991
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>VILLA</strong>: WordPress %1$s krefst MySQL útgáfu %2$s eða nýrri"
 
@@ -6167,10 +6171,6 @@ msgstr "[%1$s] Bakvísun: \"%2$s\""
 #: wp-includes/pluggable.php:1598
 msgid "[%1$s] Please moderate: \"%2$s\""
 msgstr "[%1$s] Samþykktu eða hafnaðu: \"%2$s\""
-
-#: wp-includes/pluggable.php:1665
-msgid "[%s] Password Lost/Changed"
-msgstr "[%s] Lykilorði glatað/breytt"
 
 #: wp-includes/functions.php:3510
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
@@ -6503,10 +6503,6 @@ msgstr "Síður:"
 msgid "Posts by %s"
 msgstr "Færslur eftir þennan höfund: %s"
 
-#: wp-includes/default-widgets.php:422 wp-includes/theme-compat/sidebar.php:75
-msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
-msgstr "Knúið með WordPress, háþróuðum vefmiðli fyrir einstaklinga."
-
 #: wp-includes/taxonomy.php:493
 msgid "Separate tags with commas"
 msgstr "Aðskildu fleiri en eitt efnisorð með kommum"
@@ -6595,6 +6591,10 @@ msgstr "Þemu"
 #: wp-includes/capabilities.php:993
 msgid "Usage of user levels by plugins and themes is deprecated. Use roles and capabilities instead."
 msgstr "Notkun á \"user levels\" í viðbótum og þemum er nú úrelt. Nota á \"roles\" og \"capabilities\" í staðinn."
+
+#: wp-includes/default-widgets.php:422 wp-includes/theme-compat/sidebar.php:75
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Knúið af WordPress, háþróuðu vefkerfi fyrir einstaklinga."
 
 #: wp-includes/comment-template.php:1642 wp-includes/comment-template.php:2235
 #: wp-includes/theme-compat/comments.php:68
@@ -6733,11 +6733,6 @@ msgstr "Vottað <abbr title=\\\"eXtensible HyperText Markup Language\\\">XHTML</
 #: wp-includes/theme-compat/comments.php:59
 msgid "Comments are closed."
 msgstr "Lokað er fyrir athugasemdir."
-
-#: wp-includes/media.php:2737 wp-includes/script-loader.php:369
-#: wp-includes/script-loader.php:509
-msgid "(no title)"
-msgstr "(ekkert heiti)"
 
 #: wp-includes/default-widgets.php:1057
 msgid "<strong>RSS Error</strong>: %s"
@@ -7146,6 +7141,11 @@ msgstr "Loka"
 msgid "Name"
 msgstr "Nafn"
 
+#: wp-includes/media.php:2737 wp-includes/script-loader.php:369
+#: wp-includes/script-loader.php:509
+msgid "(no title)"
+msgstr "(án titils)"
+
 #: wp-includes/class-wp-editor.php:851
 msgid "Advanced"
 msgstr "Ítarlegra"
@@ -7192,10 +7192,6 @@ msgstr "Virkja"
 msgid "Draft"
 msgstr "Drög"
 
-#: wp-includes/admin-bar.php:241 wp-includes/class-wp-admin-bar.php:376
-msgid "Log Out"
-msgstr "Skrá út"
-
 #: wp-includes/post.php:1639
 msgid "No posts found."
 msgstr "Engar færslur fundust."
@@ -7203,10 +7199,6 @@ msgstr "Engar færslur fundust."
 #: wp-activate.php:115 wp-includes/post-template.php:1633
 msgid "Password:"
 msgstr "Lykilorð:"
-
-#: wp-includes/post.php:915
-msgid "Pending Review"
-msgstr "Í yfirlestri"
 
 #: wp-includes/post.php:917 wp-includes/post.php:937
 #: wp-includes/script-loader.php:473
@@ -7253,6 +7245,14 @@ msgstr "Villa kom upp við virkjun"
 #: wp-includes/script-loader.php:480
 msgid "Title"
 msgstr "Titill"
+
+#: wp-includes/admin-bar.php:241 wp-includes/class-wp-admin-bar.php:376
+msgid "Log Out"
+msgstr "Útskrá"
+
+#: wp-includes/post.php:915
+msgid "Pending Review"
+msgstr "Bíður yfirlestrar"
 
 #: wp-includes/class-wp-customize-manager.php:159
 #: wp-includes/script-loader.php:399

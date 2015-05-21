@@ -2,13 +2,29 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-05-01 09:53:06+0000\n"
+"PO-Revision-Date: 2015-05-06 17:04:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n % 100 != 1 && n % 100 != 21 && n % 100 != 31 && n % 100 != 41 && n % 100 != 51 && n % 100 != 61 && n % 100 != 71 && n % 100 != 81 && n % 100 != 91);\n"
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: Development\n"
+
+#: views/notice.php:109
+msgid "To continue your service, <a href=\"%s\" target=\"_blank\">upgrade to an Enterprise subscription</a>, which covers an unlimited number of sites."
+msgstr "Til þess að halda áfram að nýta þjónustuna, <a href=\"%s\" target=\"_blank\">uppfærðu í Enterprise áskrift</a>, en hún leyfir notkun á ótakmörkuðum fjölda vefja."
+
+#: views/notice.php:102
+msgid "Your Pro subscription allows the use of Akismet on only one site. Please <a href=\"%s\" target=\"_blank\">purchase additional Pro subscriptions</a> or upgrade to an Enterprise subscription that allows the use of Akismet on unlimited sites."
+msgstr "Pro áskriftin þín býður einungis upp á notkun á einum vef. Vinsamlegast <a href=\"%s\" target=\"_blank\">kaupið fleiri Pro áskriftir</a> eða uppfærið í Enterprise áskrift sem leyfir notkun á ótakmörkuðum fjölda vefja."
+
+#: views/notice.php:81 views/notice.php:104 views/notice.php:111
+msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
+msgstr "Vinsamlegast <a href=\"%s\" target=\"_blank\">hafðu samband við notendaþjónustuna okkar</a> ef spurningar vakna."
+
+#: views/notice.php:79
+msgid "Since 2012, Akismet began using subscriptions for all accounts (even free ones). It looks like a subscription has not been assigned to your account, and we’d appreciate it if you’d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
+msgstr "Síðan 2012 hefur Akismet notast við áskriftir fyrir allan aðgang (einnig þessa gjaldfrjálsu). Það lítur út fyrir að áskrift hafi ekki verið skilgreind fyrir aðganginn þinn og við værum afar þakklát ef þú gætir <a href=\"%s\" target=\"_blank\">skráð þig inn</a> og valið áskrift."
 
 #: class.akismet-admin.php:524
 msgid "Comment was caught by wp_blacklist_check."
@@ -58,11 +74,11 @@ msgstr "Akismet gat ekki endurskoðað þessa athugasemd (svar: %s)."
 msgid "%1$s changed the comment status to %2$s."
 msgstr "%1$s breytti stöðu athugasemdar í %2$s."
 
-#: views/notice.php:90
+#: views/notice.php:94
 msgid "The key you entered could not be verified."
 msgstr "Ekki var hægt að staðfesta lykilinn sem þú gafst upp."
 
-#: views/notice.php:91
+#: views/notice.php:95
 msgid "The connection to akismet.com cannot be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
 msgstr "Ekki var hægt að tengjast við akismet.com. Vinsamlegast skoðaðu <a href=\"%s\" target=\"_blank\">leiðbeiningar okkar um eldveggi</a> og farðu yfir stillingar netþjónsins þíns."
 
@@ -93,10 +109,6 @@ msgstr "Akismet lenti í vandræðum með SSL fyrirspurn og slökkti á þeim t�
 #: views/config.php:83 views/config.php:86
 msgid "Disabled."
 msgstr "Óvirkt."
-
-#: views/notice.php:97
-msgid "Your Pro subscription allows the use of Akismet on only one site. Please <a href=\"http://docs.akismet.com/billing/add-more-sites/\">purchase additional Pro subscriptions</a> or upgrade to an Enterprise subscription that allows the use of Akismet on unlimited sites.<br /><br />If you have any questions, please get in touch with our support team."
-msgstr "Pro áskriftin þín leyfir bara notkun á Akismet á einum vef. Vinsamlegast <a href=\"http://docs.akismet.com/billing/add-more-sites/\">kauptu auka Pro áskrift</a> eða uppfærðu í Enterprise áskrift sem leyfir þér að nota Akismet á ótakmörkuðum fjölda vefja.<br /><br />Ef einhverjar spurningar vakna, hafðu þá samband við þjónustuteymið okkar."
 
 #: views/config.php:127
 msgid "Spam in the <a href=\"%1$s\">spam folder</a> older than 1 day is deleted automatically."
@@ -148,10 +160,6 @@ msgstr "Endurvirkja Akismet"
 msgid "Your subscription for %s is cancelled"
 msgstr "Áskriftinni þinni fyrir %s hefur verið sagt upp"
 
-#: views/notice.php:78
-msgid "Since 2012, Akismet began using subscriptions for all accounts (even free ones). It looks like a subscription has not been assigned to your account, and we’d appreciate it if you’d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one. Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
-msgstr "Akismet hefur notast við áskriftir fyrir alla reikninga (líka þá sem eru ókeypis) síðan 2012. Það virðist vera sem svo að áskrift hafi ekki verið úthlutað fyrir aðganginn þinn og við yrðum þakklát ef þú <a href=\"%s\" target=\"_blank\">skráir þig inn í reikninginn þinn</a> og veldir áskrift. Vinsamlega <a href=\"%s\" target=\"_blank\">hafðu samband við þjónustuteymið okkar</a> ef spurningar vakna."
-
 #: views/config.php:182
 msgid "Cancelled"
 msgstr "Hætt við"
@@ -196,23 +204,19 @@ msgstr "Ávallt flytja amapósta í amapósts-möppuna til skoðunar."
 msgid "Comments"
 msgstr "Athugasemdir"
 
-#: views/notice.php:100
-msgid "To continue your service, <a href=\"%s\" target=\"_blank\">upgrade to an Enterprise subscription</a>, which covers an unlimited number of sites. Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
-msgstr "Til þess að halda áfram með þjónustuna, <a href=\"%s\" target=\"_blank\">uppfærðu í Enterprise áskrift</a>, sem nær yfir ótarkmaðan fjölda vefja. Vinsamlegast <a href=\"%s\" target=\"_blank\">hafðu samband við þjónustuteymið okkar</a> ef spurningar vakna."
-
-#: views/notice.php:99
-msgid "You're using Akismet on far too many sites for your Pro subscription."
+#: views/notice.php:107
+msgid "You&#8217;re using Akismet on far too many sites for your Pro subscription."
 msgstr "Þú ert að nota Akismet á of mörgum vefjum fyrir Pro áskriftina þína."
 
-#: views/notice.php:96
-msgid "You're using your Akismet key on more sites than your Pro subscription allows."
+#: views/notice.php:100
+msgid "You&#8217;re using your Akismet key on more sites than your Pro subscription allows."
 msgstr "Þú ert að nota Akismet lykilinn á fleiri vefjum en Pro áskriftin þín leyfir."
 
 #: views/notice.php:77
 msgid "Your subscription is missing."
 msgstr "Áskriftina þína vantar."
 
-#: views/notice.php:82
+#: views/notice.php:86
 msgid "Your Akismet account has been successfully set up and activated. Happy blogging!"
 msgstr "Akismet aðgangurinn þinn hefur verið virkjaður. Gleðilegt blogg!"
 
@@ -326,7 +330,7 @@ msgstr "Við getum ekki tengst vefnum þínum."
 msgid "Akismet Error Code: %s"
 msgstr "Akismet Villu Kóði: %s"
 
-#: views/notice.php:86
+#: views/notice.php:90
 msgid "The key you entered is invalid. Please double-check it."
 msgstr "Lykillinn virðist ógildur. Athugaðu hann aftur."
 
