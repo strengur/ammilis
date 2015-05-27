@@ -41,6 +41,4 @@ function new_excerpt_more( $more ) {
 	return 45;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-
-
 ?>
