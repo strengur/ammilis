@@ -537,6 +537,10 @@ header {
 	margin: 0 3px;
 }
 
+.aligncenter {
+	max-width: 100%;
+}
+
 @media screen and (min-width: 651px) {
 	.navigation {
 		display: none;
@@ -902,6 +906,10 @@ header {
 		top: 72vh;
 	}
 	
+	.single-page-content h2 {
+		font-size: 7vw;
+	}
+	
 	.social-media-icons {
 		position: fixed;
 		top: 60px;
@@ -1010,9 +1018,13 @@ header {
 		border-bottom: 3px #3f3f3f solid;
 		margin-bottom: 10px;
 	}
+	
+	p {
+		font-size: 0.9em;
+	}
 
 	.article-columns-content p {
-		font-size: 0.85em;
+		font-size: 0.9em;
 	}
 
 	.employee-profile {
@@ -1193,4 +1205,3 @@ header {
 	}
 
 }
-
