@@ -14,7 +14,7 @@
 
 	<div class="banner-headline">
 			<h1>
-				Veldu gæðavörur fyrir líkamsræktina!
+				Vilt þú gjöf frá okkur!
 			</h1>
 	</div>
 
@@ -22,7 +22,7 @@
 
 <div class="banner-button-clearfix">
 		<div class="banner-button">
-			<a href="http://n.likamioglifsstill.is/index.php?route=common/home&tracking=555a27b0d3d9f" class="banner-button-button button-orange-gradient button">Smelltu hér!</a>
+			<a href="http://n.likamioglifsstill.is/index.php?route=common/home&tracking=555a27b0d3d9f" class="banner-button-button button-orange-gradient button">JÁ TAKK!</a>
 		</div>
 	</div>
 
