@@ -148,10 +148,10 @@
 	</div>
 
 	<div class="products">
-			<a href="http://n.likamioglifsstill.is/limitless-signature-bikini"><img src="<?php bloginfo('template_directory');?>/images/products/1.jpg" alt="Ad banner description"></a>
-			<a href="http://n.likamioglifsstill.is/limitless-signature-thong"><img src="<?php bloginfo('template_directory');?>/images/products/2.jpg" alt="Ad banner description"></a>
-			<a href="http://n.likamioglifsstill.is/yoga-handklaedi"><img src="<?php bloginfo('template_directory');?>/images/products/3.jpg" alt="Ad banner description"></a>
-			<a href="http://n.likamioglifsstill.is/legghlifar"><img src="<?php bloginfo('template_directory');?>/images/products/4.jpg" alt="Ad banner description"></a>
+			<a href="http://n.likamioglifsstill.is/nike-legendary-crisscross-pant"><img src="<?php bloginfo('template_directory');?>/images/products/1.jpg" alt="Ad banner description"></a>
+			<a href="http://n.likamioglifsstill.is/racey-sports-bra"><img src="<?php bloginfo('template_directory');?>/images/products/2.jpg" alt="Ad banner description"></a>
+			<a href="http://n.likamioglifsstill.is/shred-x-rippedcore"><img src="<?php bloginfo('template_directory');?>/images/products/3.jpg" alt="Ad banner description"></a>
+			<a href="http://n.likamioglifsstill.is/sklz-aefingateygjur-3pk"><img src="<?php bloginfo('template_directory');?>/images/products/4.jpg" alt="Ad banner description"></a>
 	</div>
 
 </div>
