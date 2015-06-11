@@ -130,7 +130,7 @@
 
 <div class="ad-banners">
 	<div class="ad-banners-frame">
-		<a href="<?php bloginfo('url'); ?>/hafa-samband"><img src="<?php bloginfo('template_directory');?>/images/banners/newbanner2.jpg" alt="Ad banner description"></a>
+		<a href="http://n.likamioglifsstill.is/adrar-vorur/yoga-handklaedi/?tracking=557a14b761142"><img src="<?php bloginfo('template_directory');?>/images/banners/yoga-handklaedi-afslattur.jpg" alt="Ad banner description"></a>
 	</div>
 </div>
 

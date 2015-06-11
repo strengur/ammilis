@@ -901,6 +901,10 @@ header {
 	.banner-headline {
 		top: 57%;
 	}
+	
+	.banner-button-button {
+		font-size: 0.75em;
+	}
 
 	.banner-button-clearfix {
 		top: 72vh;
