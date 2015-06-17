@@ -123,9 +123,8 @@
 	ga('send', 'pageview');
 </script>
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
 <script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/main-java.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/rnd-images.js"></script>
 
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us7.list-manage.com","uuid":"bedef58022dc35e723930dc3e","lid":"fc2b4ed97a"}) })
