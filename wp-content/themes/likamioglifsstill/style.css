@@ -541,6 +541,12 @@ header {
 	max-width: 100%;
 }
 
+.mobile-images {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
 @media screen and (min-width: 651px) {
 	.navigation {
 		display: none;
@@ -725,6 +731,10 @@ header {
 
 	.banner-button-clearfix {
 		top: 52vh;
+	}
+	
+	.contact-form {
+		margin: 0 3%;
 	}
 
 	.footer {
