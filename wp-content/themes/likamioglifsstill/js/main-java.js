@@ -61,5 +61,56 @@ $(document).ready(function(){
 	});
 });
 
-document.getElementById('input_1_4').focus();
+
+var xhr;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  	xhr = new XMLHttpRequest();
+  	console.log("If statement");
+  }
+else
+  {// code for IE6, IE5
+  	xhr = new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  
+  xhr.onreadystatechange=function()
+  {
+  if (xhr.readyState == 4 && xhr.status == 200)
+    {
+    document.getElementById("ajax").innerHTML = xhr.responseText;
+    console.log("getElement");
+    }
+  }
+
+xhr.open("GET", templateDir + "hero-image.php", true);
+console.log("path");
+xhr.send();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

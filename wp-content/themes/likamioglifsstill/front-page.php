@@ -1,23 +1,9 @@
 <?php get_header(); ?>
 
-<div class="banners">
+<div class="banners" id="ajax">
 	
+
 	
-	<?php
-		
-		$uploads = wp_upload_dir();				
-		$scanned_directory = array_diff(scandir($uploads['basedir'].'/banners/header-images'), array('..', '.'));
-		$rand_images = array_rand($scanned_directory);
-	?>
-		
-	<img class="banners-img" src="<?php echo $uploads['baseurl'].'/banners/header-images/' . ($scanned_directory[$rand_images]);?>" alt="Banner image">
-
-	<div class="banner-headline">
-			<h1>
-				Gott úrval af frábærum vörum!
-			</h1>
-	</div>
-
 </div>
 
 <div class="banner-button-clearfix">
@@ -130,7 +116,7 @@
 
 <div class="ad-banners">
 	<div class="ad-banners-frame">
-		<a href="http://n.likamioglifsstill.is/adrar-vorur/yoga-handklaedi/?tracking=557a14b761142"><img src="<?php bloginfo('template_directory');?>/images/banners/yoga-handklaedi-afslattur.jpg" alt="Ad banner description"></a>
+		<a href="http://n.likamioglifsstill.is/ithrottafatnadur/zensah-ithrottavorur"><img src="<?php bloginfo('template_directory');?>/images/banners/zensah-1920x700.jpg" alt="ZENSAH compression socks and sleeves"></a>
 	</div>
 </div>
 

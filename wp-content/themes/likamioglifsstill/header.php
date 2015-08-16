@@ -10,7 +10,7 @@
 		<meta name="robots" content="noindex, nofollow">
 		
 		<script type="text/javascript">
-			var templateDir = "<?php bloginfo('url') ?>";
+			var templateDir = "<?php bloginfo('url') ?>/wp-content/themes/likamioglifsstill/";
 		</script>
 
 	</head>
