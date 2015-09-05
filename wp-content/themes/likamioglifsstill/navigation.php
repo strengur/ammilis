@@ -29,6 +29,10 @@
 	</div>
 	
 	<div class="navigation-mobile-menu-closed">
+
+		<span><?php wp_nav_menu( array('menu' => 'Main Menu')); ?></span>
+
+<!--
 		<ul>
 			<li><a href="http://n.likamioglifsstill.is/index.php?route=common/home&tracking=555a2fe30471a">NETVERSLUN</a></li>
 			<li><a href="<?php bloginfo('url'); ?>">HEIM</a></li>
@@ -36,5 +40,6 @@
 			<li><a href="<?php bloginfo('url'); ?>/netklubbur-likama-lifsstils">NETKLÚBBUR</a></li>
 			<li><a href="<?php bloginfo('url'); ?>/hafa-samband">HAFA SAMBAND</a></li>
 		</ul>
+-->
 	</div>
 </header>

@@ -62,4 +62,3 @@ $(document).ready(function(){
 });
 
 document.getElementById('input_1_4').focus();
-
