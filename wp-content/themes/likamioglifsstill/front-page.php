@@ -1,16 +1,34 @@
 <?php get_header(); ?>
 
-<div class="banners" id="ajax">
+<div class="banners">
 	
+	
+	<?php
+		
+		$uploads = wp_upload_dir();				
+		$scanned_directory = array_diff(scandir($uploads['basedir'].'/banners/header-images'), array('..', '.'));
+		$rand_images = array_rand($scanned_directory);
+	?>
+		
+	<img class="banners-img" src="<?php echo $uploads['baseurl'].'/banners/header-images/' . ($scanned_directory[$rand_images]);?>" alt="Banner image">
 
-	
+
+	<div class="banner-headline">
+			<h1>
+				Gott úrval af frábærum vörum!
+			</h1>
+	</div>
+
+
 </div>
+
 
 <div class="banner-button-clearfix">
 		<div class="banner-button">
 			<a href="http://n.likamioglifsstill.is/index.php?route=common/home&tracking=555a27b0d3d9f" class="banner-button-button button-orange-gradient button">SMELLTU HÉR!</a>
 		</div>
 	</div>
+
 
 <div class="arrow-down-clearfix">
 	<div class="arrow-down">
@@ -134,10 +152,10 @@
 	</div>
 
 	<div class="products">
-			<a href="http://n.likamioglifsstill.is/nike-legendary-crisscross-pant"><img src="<?php bloginfo('template_directory');?>/images/products/1.jpg" alt="Ad banner description"></a>
+			<a href="http://n.likamioglifsstill.is/bed-of-nails"><img src="<?php bloginfo('template_directory');?>/images/products/1.jpg" alt="Ad banner description"></a>
 			<a href="http://n.likamioglifsstill.is/racey-sports-bra"><img src="<?php bloginfo('template_directory');?>/images/products/2.jpg" alt="Ad banner description"></a>
 			<a href="http://n.likamioglifsstill.is/shred-x-rippedcore"><img src="<?php bloginfo('template_directory');?>/images/products/3.jpg" alt="Ad banner description"></a>
-			<a href="http://n.likamioglifsstill.is/sklz-aefingateygjur-3pk"><img src="<?php bloginfo('template_directory');?>/images/products/4.jpg" alt="Ad banner description"></a>
+			<a href="http://n.likamioglifsstill.is/diet-pro-meal"><img src="<?php bloginfo('template_directory');?>/images/products/4.jpg" alt="Ad banner description"></a>
 	</div>
 
 </div>
